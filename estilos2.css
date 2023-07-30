@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(outerspace-6.gif) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+a.curri {
+    text-decoration: none;
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(24, 42, 122);
+    padding: 70px 30px;
+    font-family: 'calibri', sans-serif; 
+    text-transform: uppercase;
+    border-radius: 50%;
+    animation: animacion 3s linear infinite;
+    
+    
+}
+
+@keyframes animacion {
+    0% { 
+        box-shadow: 0 0 0 0 rgb(24, 42, 122),0 0 0 0 rgb(24, 42, 122);
+    }
+    5% { 
+        box-shadow: 0 0 0 10px rgb(24, 42, 122),0 0 0 10px rgb(24, 42, 122);
+    }
+    10% { 
+        box-shadow: 0 0 0 20px rgb(24, 42, 122),0 0 0 20px rgb(24, 42, 122);
+    }
+    20% { 
+        box-shadow: 0 0 0 30px rgb(24, 42, 122),0 0 0 30px rgb(24, 42, 122);
+    }
+    30% { 
+        box-shadow: 0 0 0 40px rgb(24, 42, 122), 0 0 0 40px rgb(24, 42, 122);
+    }
+    40% { 
+        box-shadow: 0 0 0 50px rgb(24, 42, 122),0 0 0 50px rgb(24, 42, 122);
+    }
+    50% { 
+        box-shadow: 0 0 0 40px rgb(24, 42, 122),0 0 0 40px rgb(24, 42, 122);
+    }
+    60% { 
+        box-shadow: 0 0 0 30px rgb(24, 42, 122), 0 0 0 30px rgb(24, 42, 122);
+    }
+    70% { 
+        box-shadow: 0 0 0 20px rgb(24, 42, 122),0 0 0 20px rgb(24, 42, 122);
+    }
+    80% { 
+        box-shadow: 0 0 0 10px rgb(24, 42, 122),0 0 0 10px rgb(24, 42, 122);
+    }
+   
+    100% { 
+        box-shadow: 0 0 0 0 rgb(24, 42, 122),0 0 0 0 rgb(24, 42, 122);
+    }
+   
+}
+ 
